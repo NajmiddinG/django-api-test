@@ -44,6 +44,7 @@ INSTALLED_APPS = [
 ]
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = ['*']
+CORS_ORIGIN_WHITELIST = ('*')
 REST_FRAMEWORK = {
     # 'DEFAULT_PERMISSION_CLASSES': [
     #     'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
